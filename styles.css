@@ -42,31 +42,33 @@ body {
     }
   .header1 {
     padding: 32px 0;
-    height:300vh;
-   background-color:rgb(2, 11, 30);
+    height:370vh;
+    width:auto;
+   background-image:url(徳原top画.jpg);
+   background-size:cover;
   }
   .Box {
-    margin-bottom:50vh;
+    margin-bottom:80vh;
   }
   .box{
-    width:20vh;
+    width:30vh;
     height:40vh;
     background-color:white;
-    margin-bottom:50vh;
+    margin-bottom:100vh;
     margin-left:10%;
   }
   .box2{
-    width:20vh;
+    width:30vh;
     height:40vh;
     background-color:white;
-    margin-left:75%;
+    margin-left:80%;
   }
 
   .header {
     text-align:center;
     padding: 32px 0;
     height:80vh;
-   background-color:rgb(2, 11, 30);
+   background-image:
   }
 
 
