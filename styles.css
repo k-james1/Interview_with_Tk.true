@@ -23,9 +23,28 @@ body {
     .container-head img{
      width:100%;
     }
-    .container-head p{
+    .Box-container{
+      width:100%;
       position:absolute;
-      color:white;
+      top:0;
+      left:0;
+    }
+    .Box {
+      margin-bottom:40%;
+    }
+    .box{
+      width:30vh;
+      height:40vh;
+      background-color:white;
+      margin-left:10%;
+      margin-bottom:50%;
+    }
+    .box2{
+      width:30vh;
+      height:40vh;
+      background-color:white;
+      margin:5% 5% 0 78%;
+
     }
 
 
@@ -37,6 +56,7 @@ body {
   .bun-container p{
     font-size:20px;
     color:white;
+    text-align:center;
   }
 
 
@@ -44,12 +64,22 @@ body {
     height:100vh;
     max-width:60%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10% 20% 10% 20%;
   }
   .table{
     background-color:rgb(9, 51, 57);
     height:20vh;
     margin-bottom:10vh;
+    padding-top:30px;
+  }
+  .table a{
+    text-decoration:none;
+    text-align:center;
+  }
+  .table p{
+    font-size:30px;
+    color:white;
+    
   }
   .table:hover{
     opacity:0.8;
@@ -112,7 +142,7 @@ body {
     display:flex;
     gap:200px;
   }
-  a{
+  .page-button a{
     text-decoration:none;
     height:150px;
   }
