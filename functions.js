@@ -4,8 +4,8 @@ window.addEventListener("load", () => {
   gsap.to(
     loading,{
       clipPath:"inset( 0 0 100%  0)",
-      duration:1.5,
-      ease:"power1.inOut",
+      duration:2,
+      ease:"power3.inOut",
     }
   );
 });
