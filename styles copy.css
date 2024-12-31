@@ -18,16 +18,14 @@ body {
     .container-head{
       width:100%;
       margin-bottom:30vh;
-      position:relative;
     }
-    .container-head img{
-     width:100%;
-    }
-    .container-head p{
-      position:absolute;
-      color:white;
-    }
-
+  .header1 {
+    padding: 32px 0;
+    height:370vh;
+    width:auto;
+   background-image:url(徳原top画.jpg);
+   background-size:cover;
+  }
 
   .bun-container{
     width:50%;
@@ -38,7 +36,29 @@ body {
     font-size:20px;
     color:white;
   }
+  .Box {
+    margin-bottom:80vh;
+  }
+  .box{
+    width:30vh;
+    height:40vh;
+    background-color:white;
+    margin-bottom:100vh;
+    margin-left:10%;
+  }
+  .box2{
+    width:30vh;
+    height:40vh;
+    background-color:white;
+    margin-left:80%;
+  }
 
+  .header {
+    text-align:center;
+    padding: 32px 0;
+    height:80vh;
+   background-image:
+  }
 
   .table-container{
     height:100vh;
