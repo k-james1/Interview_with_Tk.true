@@ -1,3 +1,29 @@
+const loading = document.querySelector("[data-opening-animation]");
+
+window.addEventListener("load", () => {
+  gsap.to(
+    loading,{
+      clipPath:"inset( 0 0 100%  0)",
+      duration:1.5,
+      ease:"power1.inOut",
+    }
+  );
+});
+
+const tables = document.querySelectorAll('.table');
+tables.forEach((table) => {
+gsap.fromTo(table, {x:-100, autoAlpha:0,},
+  {
+    x:0,
+    autoAlpha:1,
+    scrollTrigger:{
+      trigger:table,
+      start:"top center",
+      ease:"none",
+    }
+  });
+});
+
 const chapters = document.querySelectorAll('.chapter');
 
 chapters.forEach((chapter) => { //それぞれのチャプターについての
