@@ -88,6 +88,9 @@ body {
     margin-bottom:10vh;
     padding-top:30px;
   }
+  .table:hover{
+    opacity:.5;
+  }
   .table a{
     text-decoration:none;
     text-align:center;
@@ -95,9 +98,6 @@ body {
   .table p{
     font-size:30px;
     color:rgb(255, 255, 255);  
-  }
-  .table:hover{
-    opacity:0.5;
   }
 
   
