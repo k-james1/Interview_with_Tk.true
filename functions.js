@@ -10,9 +10,7 @@ window.addEventListener("load", () => {
   );
 });
 
-
-gsap.to(".intro-illust",{
-  x:-200,
+const tl = gsap.timeline({
   scrollTrigger:{
     trigger:".intro-animation",
     start:"center center",
@@ -21,6 +19,13 @@ gsap.to(".intro-illust",{
     ease: 'power4.inOut',
   },
 });
+tl.to(".intro-illust",{
+  x:-220,
+})
+.from(".intro-copy",{
+  autoAlpha:0,
+},'<')
+
 
 const tables = document.querySelectorAll('.table');
 tables.forEach((table) => {
