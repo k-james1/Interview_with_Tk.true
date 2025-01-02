@@ -10,6 +10,18 @@ window.addEventListener("load", () => {
   );
 });
 
+
+gsap.to(".intro-illust",{
+  x:-200,
+  scrollTrigger:{
+    trigger:".intro-animation",
+    start:"center center",
+    toggleActions: 'play none none reverse',
+    pin:true,
+    ease: 'power4.inOut',
+  },
+});
+
 const tables = document.querySelectorAll('.table');
 tables.forEach((table) => {
 gsap.fromTo(table, {x:-100, autoAlpha:0,},
