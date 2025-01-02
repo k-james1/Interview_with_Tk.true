@@ -43,15 +43,15 @@ gsap.fromTo(table, {x:-100, autoAlpha:0,},
 
 const chapters = document.querySelectorAll('.chapter');
 
-chapters.forEach((chapter) => { //それぞれのチャプターについての
+chapters.forEach((chapter) => { 
   gsap.fromTo(chapter, {autoAlpha: 0, y: 50}, {
-    duration: .3,
+    duration: .5,
     autoAlpha: 1,
     y: 0,
     ease: 'power4.inOut',
     scrollTrigger: {
       trigger: chapter,
-      start: 'top 80%',
+      start: 'top 60%',
       toggleActions: 'play none none none',
       once: true,
     }
@@ -60,7 +60,7 @@ chapters.forEach((chapter) => { //それぞれのチャプターについての
 
 const Boxes = document.querySelectorAll('.Box');
 
-Boxes.forEach((Box) => { //それぞれのチャプターについての
+Boxes.forEach((Box) => { 
   gsap.fromTo(Box, {autoAlpha: 0, y: 50}, {
     duration: .5,
     autoAlpha: 1,
@@ -75,6 +75,10 @@ Boxes.forEach((Box) => { //それぞれのチャプターについての
   });
 });
 
+gsap.from(".first-copy",{
+  autoAlpha:0,
+  duration:2,
+})
 
 gsap.from("body",{
     scrollTrigger:{
