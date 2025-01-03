@@ -49,6 +49,7 @@ body {
       left:20%;
       top:20%;
     }
+
     .Box-container{
       width:100%;
       position:absolute;
@@ -132,13 +133,7 @@ body {
     padding: 10% 20% 10% 20%;
   }
   .table{
-    background-color:rgb(9, 51, 57);
-    height:20vh;
-    margin-bottom:10vh;
-    padding-top:30px;
-  }
-  .table:hover{
-    opacity:.5;
+    margin-bottom:15vh;
   }
   .table a{
     text-decoration:none;
@@ -148,7 +143,27 @@ body {
     font-size:30px;
     color:rgb(255, 255, 255);  
   }
-
+  .table-back1{
+    background-image:url("img_folder/table1.jpg");
+    background-size:cover;
+    height:15vh;
+    padding:8px 0 8px 0;
+  }
+  .table-back2{
+    background-image:url("img_folder/table2.jpg");
+    background-size:cover;
+    height:15vh;
+    padding:8px 0 8px 0;
+  }
+  .table-back3{
+    background-image:url("img_folder/table3.jpg");
+    background-size:cover;
+    height:15vh;
+    padding:8px 0 8px 0;
+  }
+  .table-container div:hover{
+    opacity:.9;
+  }
   
   .chapter {
 
@@ -268,9 +283,6 @@ body {
       font-size: 16px;
     }
   
-    .header {
-      padding: 24px 0;
-    }
   
     .header h1 {
       margin-bottom: 12px;

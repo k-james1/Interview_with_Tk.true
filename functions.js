@@ -35,7 +35,7 @@ gsap.fromTo(table, {x:-100, autoAlpha:0,},
     autoAlpha:1,
     scrollTrigger:{
       trigger:table,
-      start:"top center",
+      start:"top 60%",
       ease:"none",
     }
   });
