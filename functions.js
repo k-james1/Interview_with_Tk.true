@@ -78,7 +78,7 @@ Boxes.forEach((Box) => {
 gsap.from(".first-copy",{
   autoAlpha:0,
   duration:2,
-})
+});
 
 gsap.from("body",{
     scrollTrigger:{
