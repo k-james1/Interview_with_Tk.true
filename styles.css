@@ -57,21 +57,24 @@ body {
       left:0;
     }
     .Box {
-      margin-bottom:40%;
+      margin-bottom:35%;
+    }
+    .Box p{
+      writing-mode:vertical-rl;
+      font-size:28px;
     }
     .box{
-      width:30vh;
       height:40vh;
       background-color:white;
       margin-left:10%;
       margin-bottom:50%;
+      padding: 25px 15px;
     }
     .box2{
-      width:30vh;
       height:40vh;
       background-color:white;
       margin:5% 5% 0 78%;
-
+      padding:25px 15px;
     }
 
 
@@ -259,7 +262,13 @@ body {
         font-size:13px;
       }
       .box2{
-        margin-left:70%;
+        margin-right:20px;
+      }
+      .Box p{
+        font-size:24px;
+      }
+      .Box{
+        margin-bottom:15%;
       }
   }
 
@@ -267,10 +276,12 @@ body {
     h1 {
       font-size: 32px;
     }
-  
-    span {
-      font-size: 16px;
-    }
+  .Box p{
+    font-size:20px;
+  }
+  .box{
+    margin-bottom:20px;
+  }
   
   
     .header h1 {
