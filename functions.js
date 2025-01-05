@@ -80,6 +80,26 @@ gsap.from(".first-copy",{
   duration:2,
 });
 
+gsap.fromTo(".ending-container",{autoAlpha:0,},
+  {
+    autoAlpha:1,
+    scrollTrigger:{
+      trigger:".ending-container",
+      start:"top center",
+      toggleActions: 'play none none none',
+    },
+  });
+
+gsap.fromTo(".ending-copy", {y:50, autoAlpha:0,},
+  {
+    y:0,
+    autoAlpha:1,
+    scrollTrigger:{
+      trigger:".ending-copy",
+      start:"center center",
+    },
+  });
+
 gsap.from("body",{
     scrollTrigger:{
       trigger:"body",
