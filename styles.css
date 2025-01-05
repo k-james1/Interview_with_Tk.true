@@ -293,6 +293,10 @@ body {
       .Box{
         margin-bottom:15%;
       }
+      .ending-copy{
+        font-size:20px;
+        left:38%;
+      }
   }
 
   @media screen and (max-width: 767px) {
