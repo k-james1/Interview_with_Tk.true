@@ -80,25 +80,17 @@ gsap.from(".first-copy",{
   duration:2,
 });
 
-gsap.fromTo(".ending-container",{autoAlpha:0,},
-  {
-    autoAlpha:1,
-    scrollTrigger:{
-      trigger:".ending-container",
-      start:"top center",
-      toggleActions: 'play none none none',
-    },
-  });
-
-gsap.fromTo(".ending-copy", {y:50, autoAlpha:0,},
-  {
-    y:0,
-    autoAlpha:1,
-    scrollTrigger:{
-      trigger:".ending-copy",
-      start:"center center",
-    },
-  });
+const tl2 =gsap.timeline({ 
+  scrollTrigger:{
+    trigger:".ending-animation",
+    start:"top top",
+    toggleActions: 'play none none none',
+    pin:true,
+  },
+});
+tl2.from(".ending-animation img",{autoAlpha:0,});
+tl2.to(".ending-animation img",{autoAlpha:0,},"+=3.5");
+tl2.to(".ending-copy",{opacity:1,},"+=.5");
 
 gsap.from("body",{
     scrollTrigger:{

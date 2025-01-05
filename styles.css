@@ -255,6 +255,7 @@ body {
     margin:50% 0 0 0;
     padding-bottom:15%;
     background-color:black;
+    position:relative;
   }
  .ending-animation img{
   width:100%;
@@ -265,6 +266,10 @@ body {
   font-size:26px;
   color:lightgrey;
   font-weight:lighter;
+  position:absolute;
+  top:0;
+  left:40%;
+  opacity:0;
  }
 
   @media screen and (max-width: 950px) {
