@@ -10,6 +10,18 @@ window.addEventListener("load", () => {
   );
 });
 
+gsap.fromTo(".bun-container",{y:-50,autoAlpha:0,},
+  {
+    y:0,
+    autoAlpha:1,
+    scrollTrigger:{
+      trigger:".bun-container",
+      start:"top center",
+      toggleActions: 'play none none reverse',
+    }
+  }
+)
+
 const tl = gsap.timeline({
   scrollTrigger:{
     trigger:".intro-animation",
@@ -51,7 +63,7 @@ chapters.forEach((chapter) => {
     ease: 'power4.inOut',
     scrollTrigger: {
       trigger: chapter,
-      start: 'top 60%',
+      start: 'top 70%',
       toggleActions: 'play none none none',
       once: true,
     }
