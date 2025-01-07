@@ -10,6 +10,17 @@ window.addEventListener("load", () => {
   );
 });
 
+gsap.fromTo(".logo",{y:50,autoAlpha:0,},
+  {
+    y:0,
+    autoAlpha:1,
+    scrollTrigger:{
+      trigger:".logo",
+      start:"top 95%",
+    },
+  }
+);
+
 gsap.fromTo(".bun-container",{y:-50,autoAlpha:0,},
   {
     y:0,
@@ -18,9 +29,9 @@ gsap.fromTo(".bun-container",{y:-50,autoAlpha:0,},
       trigger:".bun-container",
       start:"top center",
       toggleActions: 'play none none reverse',
-    }
+    },
   }
-)
+);
 
 const tl = gsap.timeline({
   scrollTrigger:{
