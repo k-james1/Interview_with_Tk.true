@@ -100,8 +100,8 @@ body {
   }
   .intro-copy{
     position:absolute;
-    top:50%;
-    left:55%;
+    top:40%;
+    left:60%;
     transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%);
@@ -109,8 +109,15 @@ body {
     display:inline-block;
     text-align:left;
     padding-left:50px;
+    width:34%;
   }
-  .intro-copy h2,h3{
+  .intro-copy h2{
+    font-size:26px;
+    margin-bottom:-20px;
+    border-bottom:2px solid;
+    border-color:#1c2849;
+  }
+  .intro-copy h3{
     font-size:30px;
   }
   .intro-copy p{
@@ -318,6 +325,7 @@ body {
         height:200px;
         margin-right:-150px;
       }
+
   }
 
   @media screen and (max-width: 767px) {
@@ -331,7 +339,10 @@ body {
     margin-bottom:20px;
   }
   
-  
+  .intro-copy{
+    left:55%;
+    top:50%;
+  }
     .header h1 {
       margin-bottom: 12px;
     }
