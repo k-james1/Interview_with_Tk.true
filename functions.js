@@ -16,7 +16,7 @@ gsap.fromTo(".logo",{y:50,autoAlpha:0,},
     autoAlpha:1,
     scrollTrigger:{
       trigger:".logo",
-      start:"top 95%",
+      start:"top bottom",
     },
   }
 );

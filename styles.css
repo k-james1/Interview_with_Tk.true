@@ -57,7 +57,7 @@ body {
       left:0;
     }
     .Box {
-      margin-bottom:35%;
+      margin-bottom:25%;
     }
     .Box p{
       writing-mode:vertical-rl;
@@ -67,14 +67,14 @@ body {
       height:42vh;
       background-color:white;
       margin-left:10%;
-      margin-bottom:50%;
-      padding: 25px 15px;
+      margin-bottom:20%;
+      padding: 30px 20px;
     }
     .box2{
-      height:35vh;
+      height:56vh;
       background-color:white;
-      margin:5% 5% 0 78%;
-      padding:25px 15px;
+      margin:5% 5% 0 84%;
+      padding:30px 25px;
     }
     .logo{
       height:10px;
@@ -84,7 +84,7 @@ body {
   width:500px;
   margin-left:50px;
   position:absolute;
-  top:-250px;
+  top:-300px;
  }
 
   .bun-container{
@@ -129,6 +129,7 @@ body {
   }
   .intro-copy h3{
     font-size:30px;
+    color:#f0e9e3;
   }
   .intro-copy p{
     font-size:24px;
@@ -315,15 +316,15 @@ body {
         text-decoration:none;
         width:60px;
       }
-      .page-button p{
-        font-size:13px;
-      }
       .box2{
         margin-right:20px;
-        height:44vh;
+        height:50vh;
+        padding: 25px 15px;
       }
       .box{
-        height:44vh;
+        height:36vh;
+        margin-left:20px;
+        padding: 25px 15px;
       }
       .Box p{
         font-size:24px;
@@ -362,7 +363,7 @@ body {
   .box{
     margin-bottom:30px;
     height:27vh;
-    margin-left:6%;
+    margin-left:20px;
     padding: 18px 15px;
   }
   .box2{
@@ -388,7 +389,31 @@ body {
       font-size:18px;
       line-height:1.9;
     }
-  
+    .intro-copy{
+      position:absolute;
+      top:50%;
+      left:63%;
+      transform:translate(-50%,-50%);
+      -webkit-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+    }
+    .intro-illust img{
+      position:absolute;
+      top:50%;
+      right:10;
+      transform:translate(-40%,-50%);
+      -webkit-transform:translate(-30%,-50%);
+      -ms-transform:translate(-50%,-50%);
+    }
+    .intro-copy h2{
+      font-size:20px;
+    }
+    .intro-copy h3{
+      font-size:26px;
+    }
+    .intro-copy p{
+      font-size:24px;
+    }
     .chapter.common{
       padding: 30px 50px 30px 50px;
       margin-bottom: 48px;
@@ -426,5 +451,35 @@ body {
       .ending-copy{
         left:35%;
       }
+  }
+
+  @media screen and (max-width:650px){
+  .page-button img{
+    height:80px;
+    width:80px;
+  }
+  .page-button{
+    justify-content:center;
+    display:flex;
+    gap:100px;
+  }
+  .Box p{
+    font-size:16px;
+  }
+  .box{
+    margin-bottom:30px;
+    height:27vh;
+    margin-left:20px;
+  }
+  .box2{
+    height:32vh;
+    margin:5% 2% 0 84%;
+  }
+  .logo img{
+    width:300px;
+  }
+  .logo{
+    top:20px;
+  }
   }
 
