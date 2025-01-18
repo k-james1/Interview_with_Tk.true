@@ -64,7 +64,7 @@ body {
       font-size:28px;
     }
     .box{
-      height:35vh;
+      height:42vh;
       background-color:white;
       margin-left:10%;
       margin-bottom:50%;
@@ -320,7 +320,7 @@ body {
       }
       .box2{
         margin-right:20px;
-        height:42vh;
+        height:44vh;
       }
       .box{
         height:44vh;
@@ -343,6 +343,9 @@ body {
         height:200px;
         margin-right:-150px;
       }
+      .bun-container{
+        width:60%;
+      }
 
   }
 
@@ -353,12 +356,19 @@ body {
   .Box p{
     font-size:18px;
   }
+  .Box{
+    margin-bottom:20%;
+  }
   .box{
-    margin-bottom:20px;
-    height:32vh;
+    margin-bottom:30px;
+    height:27vh;
+    margin-left:6%;
+    padding: 18px 15px;
   }
   .box2{
-    height:31vh;
+    height:35vh;
+    margin:5% 2% 0 84%;
+    padding: 18px 15px;
   }
   .logo img{
     width:350px;
@@ -371,10 +381,12 @@ body {
     .header h1 {
       margin-bottom: 12px;
     }
-
+    .bun-container{
+      width:70%;
+    }
     .bun-container p{
       font-size:18px;
-      line-height:1.8;
+      line-height:1.9;
     }
   
     .chapter.common{
@@ -403,8 +415,16 @@ body {
         font-size:18px;
       }
       .img-container img{
-        height:180px;
+        height:160px;
         margin-right:-100px;
+      }
+      .img-container2 img{
+        height:180px;
+        margin-top:-400px;
+        margin-left:-150px;
+      }
+      .ending-copy{
+        left:35%;
       }
   }
 

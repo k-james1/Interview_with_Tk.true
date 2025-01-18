@@ -28,7 +28,6 @@ gsap.fromTo(".bun-container",{y:-50,autoAlpha:0,},
     scrollTrigger:{
       trigger:".bun-container",
       start:"top center",
-      toggleActions: 'play none none reverse',
     },
   }
 );
