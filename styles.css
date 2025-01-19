@@ -174,25 +174,28 @@ body {
   .table-back1{
     background-image:url("img_folder/table1.jpg");
     background-size:cover;
-    height:23vh;
-    padding:8px 0 8px 0;
+    height:20vh;
+    padding:5px 0 8px 0;
   }
   .table-back2{
     background-image:url("img_folder/table2.jpg");
     background-size:cover;
-    height:23vh;
-    padding:8px 0 8px 0;
+    height:20vh;
+    padding:5px 0 8px 0;
   }
   .table-back3{
     background-image:url("img_folder/table3.jpg");
     background-size:cover;
-    height:23vh;
-    padding:8px 0 8px 0;
+    height:20vh;
+    padding:5px 0 8px 0;
   }
   .table-container div:hover{
     opacity:.9;
   }
   
+  .sub-title{
+    width:100%;
+  }
   .chapter.common {
     padding:30px 70px 30px 70px;
   }
