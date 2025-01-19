@@ -152,7 +152,6 @@ body {
     max-width:60%;
     margin: 0 auto;
     padding: 10% 20% 10% 20%;
-   margin-bottom:200px;
   }
   .table{
     margin-bottom:15vh;
@@ -162,31 +161,25 @@ body {
     text-align:center;
   }
   .table p{
+    font-size:30px;
     color:rgb(255, 255, 255);  
-  }
-  .button-page{
-    font-size:20px;
-  }
-  .button-copy{
-    font-size:28px;
-    margin-top:10px;
   }
   .table-back1{
     background-image:url("img_folder/table1.jpg");
     background-size:cover;
-    height:23vh;
+    height:15vh;
     padding:8px 0 8px 0;
   }
   .table-back2{
     background-image:url("img_folder/table2.jpg");
     background-size:cover;
-    height:23vh;
+    height:15vh;
     padding:8px 0 8px 0;
   }
   .table-back3{
     background-image:url("img_folder/table3.jpg");
     background-size:cover;
-    height:23vh;
+    height:15vh;
     padding:8px 0 8px 0;
   }
   .table-container div:hover{
