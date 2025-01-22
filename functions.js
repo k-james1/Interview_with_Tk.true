@@ -114,14 +114,14 @@ tl2.from(".ending-animation img",{autoAlpha:0,});
 tl2.to(".ending-animation img",{autoAlpha:0,},"+=3.5");
 tl2.to(".ending-copy",{opacity:1,},"+=.5");
 
-gsap.from("body",{
+gsap.from(".body1",{
     scrollTrigger:{
-      trigger:"body",
+      trigger:".body1",
       start:"center center",
       end:"bottom bottom",
       scrub: true,
     },
     duration:0.1,
-    backgroundColor:"#3a7ca5",
+    backgroundColor:"#3b8dbf",
     ease:"none",
   });
