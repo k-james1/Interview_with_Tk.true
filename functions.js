@@ -125,3 +125,10 @@ gsap.from(".body1",{
     backgroundColor:"#3b8dbf",
     ease:"none",
   });
+
+  gsap.from(".globe",{
+    autoAlpha:0,
+    duration:2,
+    pin:true,
+  });
+  

@@ -330,6 +330,10 @@
   opacity:0;
  }
 
+ .globe img{
+  width:80vh;
+ }
+
   @media screen and (max-width: 950px) {
     .chapter-talk dl{
       display:flex;
